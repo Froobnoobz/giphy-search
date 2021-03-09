@@ -13,9 +13,13 @@
     "start": "webpack-dev-server --hot --mode development"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-hot-loader": "^4.12.20"
+    "react-hot-loader": "^4.12.20",
+    "@types/giphy-api": "^4.2.0"
   },
   "devDependencies": {
     "webpack": "^4.42.1",

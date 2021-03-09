@@ -1,4 +1,5 @@
 import * as React from 'react';
+import GiphySearch from './components/giphySearch';
 
 interface Props {
   name: string;
@@ -6,7 +7,7 @@ interface Props {
 
 const App = (props: Props): React.ReactElement => {
   const { name } = props;
-  return <div>{name} Giphy Search</div>;
+  return <GiphySearch></GiphySearch>
 };
 
 export default App;
